@@ -63,7 +63,7 @@
   margin: 10px 20px;
 }
 #About .about_container .img_data .data a{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Great Vibes', cursive;
   text-decoration: none;
   color: rgb(58, 58, 58);
   padding-left: 20px;
@@ -136,4 +136,8 @@
   #About .about_container .img_data .data p {
     margin: 28px 0px;
 }
+  }
+  #About .about_container .img_data .data h2{
+    
+  font-family: 'Great Vibes', cursive;
   }
