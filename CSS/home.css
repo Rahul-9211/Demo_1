@@ -100,6 +100,9 @@
   #home .content h1{
     font-size: 1.0rem;
   }
+  #home .content p{
+    text-align: center;
+  }
   #home .content p, span {
     font-size: 2rem;
 }
@@ -109,6 +112,9 @@
   #home button {
     padding: 12px 12px;
     font-size: 13px;
+  }
+  #home .content h1::before {
+    display: none;
   }
 }
 

@@ -4,7 +4,7 @@
 .burger{
     position: fixed;
     top: 19px;
-    right: 3%;
+    right: 9%;
     cursor: pointer;
     z-index: 6;
 }

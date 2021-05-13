@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 95%; */
+  width: 93%;
   background-color: transparent;
 }
 #Carrier .carrier_container .img_data .img{
@@ -159,5 +159,35 @@
   position: absolute;
   font-size: 63px;
   /* bottom: 31%; */
-  top: 40%;
+  top: 20%;
+}
+
+@media only screen and (max-width: 950px){
+  #Service p {
+    left: 13%;
+    font-size: 57px;
+    top: 16%;
+}
+
+#Service .btn2 {
+  left: 33%;
+  top: 71%;
+}
+}
+
+@media only screen and (max-width: 650px){
+  #Service p {
+    left: 10%;
+    font-size: 33px;
+}
+#Service .btn2 {
+  left: 33%;
+  top: 71%;
+}
+}
+
+@media only screen and (max-width: 410px){
+  #Service p {
+    left: 5%;
+}
 }
